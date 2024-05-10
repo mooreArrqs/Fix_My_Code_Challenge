@@ -2,9 +2,13 @@
 
 class Square():
 
-    def __init__(self, width=0, height=0, **kwargs):
-	self.width = width
-	self.height = height
+   width = 0
+   height 0
+
+
+    def __init__(self, width, height):
+     self.width = width
+     self.height = height
         for key, value in kwargs.items():
             setattr(self, key, value)
 
