@@ -2,15 +2,9 @@
 
 class Square():
 
-   width = 0
-   height = 0
-
-
     def __init__(self, width=0, height=0):
-        
-            
-	self.width = width
-	self.height = height
+     self.width = width
+     self.height = height
 
     def area_of_my_square(self):
         """ Area of the square """
