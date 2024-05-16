@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+"""A square"""
 
 class Square():
 
+    """Define a class Square"""
+   
     def __init__(self, width=0, height=0):
      self.width = width
      self.height = height
